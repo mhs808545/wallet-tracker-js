@@ -1,0 +1,40 @@
+Wallet tracker:
+.paiso ko track karna
+database:
+.user info save karwani hay
+.transaction in or out dono
+>users banega
+usme doc
+.uid 1
+	full name
+	email
+	created at :date
+uid is imp to store or retrieve data
+
+>destructuring:
+.array or object se cheeze nikalne ka taeeeka
+//destructuring
+//array
+var [n1,n2,n3] = [1,2,3];
+console.log(n1,n2,n3);
+
+//object destructuring
+// object
+var person = {
+    name:"ali",
+    age:"23",
+    subject:{
+        major:'english',
+        minor:"maths"
+    }
+}
+// console.log(person.name,person.age);
+// console.log(person.subject.major,person.subject.minor);
+
+var {name,age,subject:{major,minor}} = person;
+console.log(name,age);
+console.log(major,minor); 
+
+.aik page se dusre page ko connect karwane ka aik toh ye sol hay k app local file se 
+attach karwa den ya dusre page me id bhej do through url
+.assign will help in locaiton which chrome provided to js
