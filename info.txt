@@ -38,3 +38,12 @@ console.log(major,minor);
 .aik page se dusre page ko connect karwane ka aik toh ye sol hay k app local file se 
 attach karwa den ya dusre page me id bhej do through url
 .assign will help in locaiton which chrome provided to js
+
+>Dashboard;
+.location nikalne k lye hash 
+.substring:start no leti or end no
+.auth ki state jab change hogi jab ap sign in hoge ya sign out hoge
+.try catch block me kam karna hay warna agaar network error ajae tu website crash
+.transaction ko render/dikhane k lye aik function banaenge
+.where("field-name","operator","value") 
+.complex querry= jis me aik se zyada request ho  ya statement
